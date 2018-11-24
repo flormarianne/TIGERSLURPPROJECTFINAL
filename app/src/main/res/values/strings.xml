@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">PROJECT</string>
+
+    <string-array name="price">
+        <item>Any Price</item>
+        <item>P0-P49</item>
+        <item>P50-P99</item>
+        <item>P100-P199</item>
+        <item>P200 above</item>
+    </string-array>
+
+    <string name="SPcheckbox">ph.edu.ust.jatallas.project.checkbox</string>
+    <string name="SPusername">ph.edu.ust.jatallas.project.username</string>
+    <string name="SPpassword">ph.edu.ust.jatallas.project.password</string>
+</resources>
