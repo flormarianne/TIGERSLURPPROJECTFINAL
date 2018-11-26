@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/holo_blue_dark"
+    tools:background="@android:color/holo_blue_dark"
     tools:context=".Welcomepage">
 
     <ImageView
@@ -19,5 +20,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tigerslurpnocircle" />
+        app:srcCompat="@drawable/tigerslurpicon"
+        tools:srcCompat="@drawable/tigerslurpicon" />
+
 </android.support.constraint.ConstraintLayout>
