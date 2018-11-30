@@ -29,11 +29,50 @@ public class Milktea extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("MILKTEA ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{
+                "Gong Cha UST The One",
+                "D'Cream P.Noval",
+                "Moonleaf Espana",
+                "I love Milktea Sampaloc",
+                "Bon Appetea Espana",
+                "Chemistea Cafe",
+                "Naughtea Boy",
+                "SimpleLine",
+                "ZenTea",
+                "Happy Cup",
+                "Dakasi",
+                "Macao Imperial Tea",
+                "Amor Bakery",
+        };
+        description = new String[]{
+                "Location: Food Court, Second Floor, The One Grand Centre, España",
+                "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
+                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila",
+                "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
+                "Location: 838 P. Campa Street, Sampaloc, Manila",
+                "Location: 1st flr. Fusebox Bldg. 1254 Asturias St. Sampaloc, Manila, 1015 Metro Manila",
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, Metro Manila",
+                "Location: 1355 Dapitan Street, Sampaloc, Manila",
+                "Location: 1750, Unit 1G of Dapitan Regency Bldg, Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 1015 P.Noval Street Sampaloc Manila",
+                "Location: 1177 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 8010 Espana Corner Tolentino Street, Sampaloc, Manila",};
+        icon = new int[]{
+                R.drawable.milkgongcha ,
+                R.drawable.milkdcream,
+                R.drawable.milkmoonleaf,
+                R.drawable.milkilmilktea,
+                R.drawable.milkbonappetea,
+                R.drawable.milk_chemistea ,
+                R.drawable.milk_naughtea,
+                R.drawable.milk_simple,
+                R.drawable.milk_zen,
+                R.drawable.milk_happy,
+                R.drawable.milk_dak,
+                R.drawable.milk_macao,
+                R.drawable.milk_amor,
+        };
 
         listView = findViewById(R.id.listView);
 

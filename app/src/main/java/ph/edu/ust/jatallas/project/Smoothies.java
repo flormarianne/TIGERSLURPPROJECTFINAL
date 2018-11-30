@@ -29,11 +29,45 @@ public class Smoothies extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("SMOOTHIES ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{
+                "Naughtea Boy",
+                "Amo Yamie Crib",
+                "Chun Chon",
+                "Dormina Espressia",
+                "S.M.Y Noshery",
+                "Fruitas",
+                "Juice Avenue",
+                "Cafe Tomas",
+                "Chill Theater Cafe",
+                "Amor Bakery",
+                "Zagu",
+        };
+        description = new String[]{
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, Metro Manila",
+                "Location: DB Building, 1250 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 1139 GM Tolentino, Casa Ysabel Building, Sampaloc, Manila",
+                "Location: 1021 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: University Tower II, 863 Galicia Street Corner España Boulevard, Sampaloc, Manila",
+                "Location: Food Court, 2nd Floor, The One Grand Centre, Espana",
+                "Location: UST - D2B, 2nd Floor AMV Building",
+                "Location: Mezzanine Floor, Annie’s Place, 1015 P. Noval Street, Sampaloc, Manila",
+                "Location: 1125 Dos Castillas Street, Sampaloc, Manila",
+                "Location: 8010 Espana Corner Tolentino Street, Sampaloc, Manila",
+                "Location: Tolentino Street Corner Barlin Street, Sampaloc, Manila"
+        };
+        icon = new int[]{
+                R.drawable.smooth_naughtea,
+                R.drawable.smooth_amoyamie,
+                R.drawable.smooth_chunchon,
+                R.drawable.smoth_dorminaa,
+                R.drawable.smooth_smy,
+                R.drawable.smooth_fruitas ,
+                R.drawable.smooth_avenue,
+                R.drawable.smooth_tomas,
+                R.drawable.smooth_ichill,
+                R.drawable.smooth_amor,
+                R.drawable.smooth_zagu
+        };
 
         listView = findViewById(R.id.listView);
 

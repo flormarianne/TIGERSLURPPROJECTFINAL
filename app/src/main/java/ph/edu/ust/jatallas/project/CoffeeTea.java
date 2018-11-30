@@ -29,11 +29,47 @@ public class CoffeeTea extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("COFFEE OR TEA ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{"Starbucks",
+                "Seattle's Best",
+                "Macao Imperial Tea",
+                "Dormina Espressia",
+                "Coffee Avenue",
+                "Amo Yamie Crib",
+                "Mcdonald's",
+                "D'Cream",
+                "Gong Cha",
+                "SimpleLine",
+                "Cafe UK",
+                "iChill Theater Cafe",
+                "Amor Bakery"};
+        description = new String[]{
+                "Location: UST Multi-Deck Carpark, Father Roque Ruaño Dr, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: UST - QPAv, in front of Roque Ruano Building",
+                "Location: Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manilaa",
+                "Location: 1021 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Second Floor, The ONE Torre de Santo Tomas, MF Jhocson Street, Sampaloc, Manila",
+                "Location: DB Building, 1250 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: UST Multi-Deck Carpark",
+                "Location: P.Noval Street near Espana Blvd. Sampaloc Manila",
+                "Location: 2nd Floor, Food Court, The One Grand Centre, Espana",
+                "Location: 1355 Dapitan Street, Sampaloc, Manila",
+                "Location: 1507 Dapitan Corner Gelinos Street, Sampaloc, Manila",
+                "Location: 1125 Dos Castillas Street, Sampaloc, Manila",
+                "Location: 8010 Espana Corner Tolentino Street, Sampaloc, Manila"};
+        icon = new int[]{R.drawable.coffee_startbucks ,
+                R.drawable.coffee_sea,
+                R.drawable.coffee_macao,
+                R.drawable.coffee_dormina,
+                R.drawable.coffee_avenue,
+                R.drawable.coffee_amoyamie ,
+                R.drawable.coffee_mcdo,
+                R.drawable.coffee_dcream,
+                R.drawable.coffee_gong,
+                R.drawable.coffee_simple,
+                R.drawable.coffee_cafeuk,
+                R.drawable.coffee_ichill,
+                R.drawable.coffee_amor,
+        };
 
         listView = findViewById(R.id.listView);
 

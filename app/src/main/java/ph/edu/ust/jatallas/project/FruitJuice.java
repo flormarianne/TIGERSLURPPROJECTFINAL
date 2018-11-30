@@ -29,11 +29,45 @@ public class FruitJuice extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("FRUIT JUICE ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{
+                "Chemistea Cafe",
+                "Naughtea Boy",
+                "Fruitas",
+                "Juice Avenue",
+                "Dakasi",
+                "S.M.Y Noshery",
+                "Seattle's Best",
+                "Amo Yamie Crib",
+                "Gong Cha",
+                "Dormina Espressia",
+                "Macao Imperial Tea",
+        };
+        description = new String[]{
+                "Location: 1st flr. Fusebox Bldg. 1254 Asturias St. Sampaloc, Manila, 1015 Metro Manila",
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, Metro Manila",
+                "Location: Food Court, 2nd Floor, The One Grand Centre, Espana",
+                "Location: UST - D2B, 2nd Floor AMV Building",
+                "Location: 1177 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: University Tower II, 863 Galicia Street Corner España Boulevard, Sampaloc, Manila",
+                "Location: UST - QPAv, in front of Roque Ruano Building",
+                "Location: DB Building, 1250 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 2nd Floor, Food Court, The One Grand Centre, Espana",
+                "Location: 1021 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manila",
+        };
+        icon = new int[]{
+                R.drawable.fruit_chemistea ,
+                R.drawable.fruit_naughtea,
+                R.drawable.fruit_fruitas,
+                R.drawable.fruit_avenue,
+                R.drawable.fruit_dakasi,
+                R.drawable.fruit_smy ,
+                R.drawable.fruit_sea,
+                R.drawable.fruit_amoyamie,
+                R.drawable.fruit_gong,
+                R.drawable.fruit_dormina,
+                R.drawable.fruit_macao
+        };
 
         listView = findViewById(R.id.listView);
 

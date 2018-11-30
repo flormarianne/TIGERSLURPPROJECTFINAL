@@ -29,11 +29,45 @@ public class Frappe extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("FRAPPE ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{"Starbucks",
+                "Seattle's Best",
+                "Farron Cafe",
+                "Amo Yamie Crib",
+                "Chun Chon",
+                "Dormina Espressia",
+                "S.M.Y Noshery",
+                "Naughtea Boy",
+                "Macao Imperial Tea",
+                "Coffee Avenue",
+                "iChill Theater Cafe",
+                "Amor Bakery"};
+        description = new String[]{
+                "Location: UST Multi-Deck Carpark, Father Roque Ruaño Dr, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: UST - QPAv, in front of Roque Ruano Building",
+                "Location: UST - AMV building second floor, D2B",
+                "Location: DB Building, 1250 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 1139 GM Tolentino, Casa Ysabel Building, Sampaloc, Manila",
+                "Location: 1021 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: University Tower II, 863 Galicia Street Corner España Boulevard, Sampaloc, Manila",
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, Metro Manila",
+                "Location: Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Second Floor, The ONE Torre de Santo Tomas, MF Jhocson Street, Sampaloc, Manila",
+                "Location: 1125 Dos Castillas Street, Sampaloc, Manila",
+                "Location: 8010 Espana Corner Tolentino Street, Sampaloc, Manila"
+        };
+        icon = new int[]{
+                R.drawable.frappe_startbucks ,
+                R.drawable.frappe_seattle,
+                R.drawable.frappe_farron,
+                R.drawable.frappe_amoyamie,
+                R.drawable.frappe_chunchon,
+                R.drawable.frappe_dormina ,
+                R.drawable.frappe_smy,
+                R.drawable.frappe_naughtea,
+                R.drawable.frappe_macao,
+                R.drawable.frappe_avenue,
+                R.drawable.frappe_ichill,
+                R.drawable.frappe_amor,};
 
         listView = findViewById(R.id.listView);
 

@@ -29,11 +29,37 @@ public class Alcohol extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("ALCOHOL ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{"Acustica Bistro & Lounge",
+                "The Pit",
+                "Four Monkeys Bar & Kitchen",
+                "Kwadra Bar and Billiards",
+                "Tapsi",
+                "Wit Avenue Cafe and Bar",
+                "Cubix Boardgame Cafe and Bar",
+                "The Hidden Geek Bistro",
+                "Jacko's Bistro",
+                "Fusebox"
+        };
+        description = new String[]{"Location: Second Floor, Didache Building, 1508 España Boulevard, Sampaloc, Manila",
+                "Location: Dapitan Asturias Street, Sampaloc, Manila",
+                "Location: 1228 Santander Corner Dapitan Street, Sampaloc, Manila",
+                "Location: 858 Extremadura St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Sampaloc Asturias St., Sampaloc Manila",
+                "Location: 1106 M. Dela Fuente Street Manila City",
+                "Location: Second Floor, Fusebox Food Park, 1414 Asturias Corner Laong Laan Street, Sampaloc, Manila",
+                "Location: Room 104, Ground Floor, Dioresa Plaza Building, Dapitan Street, Sampaloc, Manila",
+                "Location: Ground Floor, Divine Grace Suites, P. Noval Street Corner Dapitan Street, Sampaloc, Manila",
+                "Location: Laong Laan Rd, Santa Cruz, Manila, 1008 Metro Manila"};
+        icon = new int[]{R.drawable.alcoholacustica,
+                R.drawable.alcoholthepit,
+                R.drawable.alcoholfourmonkeys,
+                R.drawable.alcoholkwadra,
+                R.drawable.alcoholtapsi,
+                R.drawable.alcoholwit,
+                R.drawable.alcoholcubix,
+                R.drawable.alcoholhidden,
+                R.drawable.alcoholjackos,
+                R.drawable.alcoholfusebox};
 
         listView = findViewById(R.id.listView);
 

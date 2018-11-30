@@ -27,13 +27,42 @@ public class Soda extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_soda);
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("SMOOTHIES ");
+        actionBar.setTitle("SODA ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{
+                "Jollibee Dapitan",
+                "McDonald's UST",
+                "Sbarro",
+                "KFC",
+                "Bonchon Chicken UST",
+                "Krispy Kreme",
+                "Subway",
+                "7-Eleven",
+                "Ministop",
+                "Yellow Cab"};
+        description = new String[]{
+                "Location: 1523 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+                "Location: UST Multi-Deck Carpark, León María Guerrero Dr, Sampaloc, Manila, 1800 Metro Manila",
+                "Location: Ground Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: Ground Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: Second Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: Ground Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: Space 8, Multi-Deck Parking Building, Level 1, España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 1521 Dapitan St, Sampaloc, Manila, 1015 Metro Manila",
+                "Location: 1015 Padre Noval St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 1122 Lacson Ave, Sampaloc, Manila, 1008 Metro Manila"
+        };
+        icon = new int[]{
+                R.drawable.sodajollibee ,
+                R.drawable.sodamcdodo,
+                R.drawable.sodasbarro,
+                R.drawable.sodakfc,
+                R.drawable.sodabonchom,
+                R.drawable.sodakk,
+                R.drawable.sodasubway,
+                R.drawable.sodase,
+                R.drawable.sodamini,
+                R.drawable.sodayc};
 
         listView = findViewById(R.id.listView);
 

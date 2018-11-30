@@ -29,11 +29,13 @@ public class Mocktails extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("MOCKTAILS ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{"Obladi Oblada",
+                 };
+        description = new String[]{
+                "Location: 1109, red, manor bldg, g.m. tolentino st., sampaloc, 1008 Kalakhang Maynila"
+        };
+        icon = new int[]{R.drawable.lemonobladi ,
+               };
 
         listView = findViewById(R.id.listView);
 

@@ -29,11 +29,37 @@ public class ChocoDrink extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("CHOCO DRINK ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{"Farron Cafe",
+                "Starbucks",
+                "Amo Yamie Crib Espana",
+                "Krispy Kreme",
+                "I love Milktea",
+                "Moonleaf Tea Shop",
+                "Pancake House",
+                "Jollibee UST The One",
+                "Dormina Espressia",
+                "Naughtea Boy"};
+        description = new String[]{"Location: Dormus Building, Espana Boulevard, Sampaloc, Manila",
+                "Location: Ground Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: DB Building, 1250 España Blvd, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: Ground Floor, UST Multi-deck Parking, UST Campus, Sampaloc, Manila",
+                "Location: Sampaloc Antonio St., Sampaloc Manila",
+                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila",
+                "Location: G/F UST, Multi-deck Parking, Lacson Ave, Sampaloc, Manila",
+                "Location: Ground Floor, The One Building, España Boulevard Corner M.F. Jhocson Street, Sampaloc, Manila",
+                "Location: 1021 Tolentino St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, 1008 Metro Manila"
+        };
+        icon = new int[]{R.drawable.chocofarron ,
+                R.drawable.chocosb,
+                R.drawable.chocoamoyamie,
+                R.drawable.chocokrispy,
+                R.drawable.chocoilm,
+                R.drawable.chocomoonleaf ,
+                R.drawable.chocopancake,
+                R.drawable.chocojollibee,
+                R.drawable.chocodormina,
+                R.drawable.choconaughty};
 
         listView = findViewById(R.id.listView);
 

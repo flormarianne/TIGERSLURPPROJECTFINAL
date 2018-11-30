@@ -29,11 +29,33 @@ public class Lemonade extends AppCompatActivity {
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle("LEMONADE ");
 
-        title = new String[]{"Gong Cha UST The One","D'Cream P.Noval", "Moonleaf Espana", "I love Milktea Sampaloc", "Bon Appetea Espana" };
-        description = new String[]{"Location: Food Court, Second Floor, The One Grand Centre, España", "Location: P. Noval Street, Near Espana Boulevard, Sampaloc, Manila",
-                "Location: G/F, St Thomas Square, España Blvd, 397, Manila, 1015 Metro Manila", "Location: Padre Noval Street, Near UST Campus, Sampaloc, Manila",
-                "Location: 838 P. Campa Street, Sampaloc, Manila"};
-        icon = new int[]{R.drawable.milkgongcha , R.drawable.milkdcream, R.drawable.milkmoonleaf, R.drawable.milkilmilktea, R.drawable.milkbonappetea};
+        title = new String[]{
+                "Chemistea",
+                "Dakasi",
+                "Gong Cha",
+                "Macao Imperial Tea",
+                "Naughtea Boy",
+                "Obladi Oblada",
+                "Starbucks",
+                "Toribox" };
+        description = new String[]{
+                "Location: 1st flr. Fusebox Bldg. 1254 Asturias St. Sampaloc, Manila, 1015 Metro Manila",
+                "Location: 1177 Dapitan St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 2nd Floor, Food Court, The One Grand Centre, Espana",
+                "Location: Pacific Suites, 1218 Santander St, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: 915, P. Noval Street, España Boulevard, Padre Noval St, Sampaloc, Manila, Metro Manila",
+                "Location: 1109, red, manor bldg, g.m. tolentino st., sampaloc, 1008 Kalakhang Maynila",
+                "Location: UST Multi-Deck Carpark, Father Roque Ruaño Dr, Sampaloc, Manila, 1008 Metro Manila",
+                "Location: iTower Building, 939 Padre Noval St, Sampaloc, Maynila, Kalakhang Maynila"};
+        icon = new int[]{
+                R.drawable.lemonchemistea ,
+                R.drawable.lemondakasi,
+                R.drawable.lemongong,
+                R.drawable.lemonmacao,
+                R.drawable.lemonnaughtea,
+                R.drawable.lemonobladi,
+                R.drawable.lemonsb,
+                R.drawable.lemontoribox,};
 
         listView = findViewById(R.id.listView);
 
